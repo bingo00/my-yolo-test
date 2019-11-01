@@ -1,0 +1,7 @@
+model_cfg : "/home/moi/temp/my-yolo-test/model/yolov3.cfg"
+model_weight : "/home/moi/temp/my-yolo-test/model/yolov3.weights"
+classname_dir : "/home/moi/temp/my-yolo-test/model/coco.names"
+input_layer : "data"
+output_layer : ["yolo_82", "yolo_94", "yolo_106"]
+appear_object_class : 1
+yolo_thresh : 0.5
